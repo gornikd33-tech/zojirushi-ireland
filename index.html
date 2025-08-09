@@ -4,53 +4,93 @@
   <meta charset="utf-8" />
   <title>Zojirushi in Ireland – Official Distributor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Official distributor of Zojirushi in Ireland: thermal mugs, bottles, lunch jars, and food storage solutions. BPA-free, long-lasting, and eco-friendly." />
+  <meta name="description" content="Official distributor of Zojirushi in Ireland. Premium thermal mugs, water bottles, food & lunch jars. BPA-free, leakproof, long-lasting. Shop Zojirushi.ie." />
   <link rel="canonical" href="https://zojirushi.ie/" />
 
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Zojirushi in Ireland – Official Distributor" />
+  <meta property="og:description" content="Premium thermal mugs, water bottles, food & lunch jars. Shop Zojirushi.ie." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gornikd33-tech.github.io/zojirushi-ireland/" />
+
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.5; color:#333; }
-    header { background:#f8f8f8; padding:30px 15px; text-align:center; }
-    h1 { margin:0; font-size:2em; }
-    p { max-width:800px; margin:10px auto; }
-    .grid { display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); padding:20px; max-width:1000px; margin:0 auto; }
-    .card { border:1px solid #ddd; border-radius:10px; padding:15px; text-align:center; background:white; }
-    .btn { display:inline-block; margin-top:10px; padding:10px 15px; background:#0073aa; color:white; text-decoration:none; border-radius:5px; }
-    .btn:hover { background:#005f87; }
-    footer { text-align:center; font-size:14px; color:#777; padding:20px; background:#f8f8f8; }
+    :root { --mx: 1040px; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; color:#1a1a1a; line-height:1.55; }
+    header { padding:48px 20px; text-align:center; background:#fafafa; border-bottom:1px solid #eee; }
+    h1 { margin:0 0 8px; font-size:clamp(28px, 4vw, 40px); }
+    .lead { max-width:720px; margin:0 auto 14px; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:10px; text-decoration:none; border:1px solid #ddd; font-weight:600; }
+    .btn:hover { background:#f3f3f3; }
+    main { max-width:var(--mx); margin:0 auto; padding:20px; }
+    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+    .card { border:1px solid #eee; border-radius:14px; padding:18px; background:#fff; }
+    .card h2 { margin:0 0 6px; font-size:20px; }
+    footer { text-align:center; padding:28px 16px; color:#666; font-size:14px; border-top:1px solid #eee; background:#fafafa; }
+    a { color:inherit; }
   </style>
+
+  <!-- JSON-LD: Organization + WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Zojirushi in Ireland – Official Distributor",
+    "url": "https://zojirushi.ie/",
+    "logo": "https://zojirushi.ie/cdn/shop/files/logo.png"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Zojirushi in Ireland",
+    "url": "https://gornikd33-tech.github.io/zojirushi-ireland/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://zojirushi.ie/search?q={query}",
+      "query-input": "required name=query"
+    }
+  }
+  </script>
 </head>
 <body>
   <header>
     <h1>Zojirushi in Ireland</h1>
-    <p>Official distributor of premium thermal mugs, bottles, food & lunch jars.</p>
-    <p><a class="btn" href="https://zojirushi.ie/">Visit Zojirushi.ie</a></p>
+    <p class="lead">Official distributor of premium thermal mugs, water bottles, and food & lunch jars. BPA-free, leakproof, built to last.</p>
+    <p><a class="btn" href="https://zojirushi.ie/" rel="noopener">Go to Store → Zojirushi.ie</a></p>
   </header>
 
-  <main class="grid">
-    <div class="card">
-      <h2>Thermal Mugs</h2>
-      <p>Lightweight, leakproof, keeps drinks hot or cold for hours.</p>
-      <a class="btn" href="https://zojirushi.ie/collections/mugs">Shop Mugs</a>
-    </div>
-    <div class="card">
-      <h2>Water Bottles</h2>
-      <p>Durable, stainless steel, and BPA-free.</p>
-      <a class="btn" href="https://zojirushi.ie/collections/water-bottles">Shop Bottles</a>
-    </div>
-    <div class="card">
-      <h2>Food & Lunch Jars</h2>
-      <p>Perfect for hot lunches, soups, and snacks on the go.</p>
-      <a class="btn" href="https://zojirushi.ie/collections/food-jars">Shop Jars</a>
-    </div>
-    <div class="card">
-      <h2>Recipes & Blog</h2>
-      <p>Tips, maintenance, and cooking ideas.</p>
-      <a class="btn" href="https://zojirushi.ie/blogs/news">Read Blog</a>
+  <main>
+    <div class="grid" aria-label="Featured collections">
+      <section class="card">
+        <h2>Thermal Mugs</h2>
+        <p>Lightweight and leakproof. Keep drinks hot or cold for hours.</p>
+        <p><a class="btn" href="https://zojirushi.ie/collections/mugs" rel="noopener">Browse Mugs</a></p>
+      </section>
+
+      <section class="card">
+        <h2>Water Bottles</h2>
+        <p>Durable stainless steel, BPA-free, easy to clean.</p>
+        <p><a class="btn" href="https://zojirushi.ie/collections/water-bottles" rel="noopener">Browse Bottles</a></p>
+      </section>
+
+      <section class="card">
+        <h2>Food & Lunch Jars</h2>
+        <p>Perfect for hot lunches, soups, and kids’ meals on the go.</p>
+        <p><a class="btn" href="https://zojirushi.ie/collections/food-jars" rel="noopener">Browse Jars</a></p>
+      </section>
+
+      <section class="card">
+        <h2>Blog & Recipes</h2>
+        <p>Care tips, comparisons, and family-friendly recipes.</p>
+        <p><a class="btn" href="https://zojirushi.ie/blogs/news" rel="noopener">Read the Blog</a></p>
+      </section>
     </div>
   </main>
 
   <footer>
-    © 2025 Zojirushi in Ireland. Hosted on GitHub Pages.
+    © Zojirushi in Ireland. Informational microsite hosted on GitHub Pages.
   </footer>
 </body>
 </html>
